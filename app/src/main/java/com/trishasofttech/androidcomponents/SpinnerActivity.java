@@ -12,6 +12,7 @@ import android.widget.Toast;
 public class SpinnerActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 private Spinner spinner;
 String [] sname = {"Select Name","pawan", "raman", "chaman", "naman", "hasann", "tasan"};
+
 @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
