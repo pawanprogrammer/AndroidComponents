@@ -9,17 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidComponents">
-        <activity android:name=".CheckBoxActivity">
+        <activity android:name=".RadioButtonActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CustomAlertDialogActivity">
+        <activity android:name=".TimePickerActivity">
 
         </activity>
-        <activity android:name=".AlertDialogActivity"></activity>
+        <activity android:name=".DatePickerActivity"></activity>
+        <activity android:name=".ToggleButtonActivity" />
+        <activity android:name=".SearchViewActivity" />
+        <activity android:name=".CheckBoxActivity" />
+        <activity android:name=".CustomAlertDialogActivity" />
+        <activity android:name=".AlertDialogActivity" />
         <activity android:name=".ProgressBarActivity" />
         <activity android:name=".CustomSpinnerActivity" />
         <activity android:name=".SpinnerActivity" />
